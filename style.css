@@ -5,3 +5,7 @@
 .font-poppins{
   font-family: "Poppins", sans-serif;
 }
+.active{
+  background-color: rgba(10, 10, 121, 0.848);
+  color: white;
+}
