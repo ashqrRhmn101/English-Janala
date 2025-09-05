@@ -59,18 +59,25 @@
               </svg>
             </div>
             <ul
-        tabindex="0"
-        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-        <li>
-      <a href="" class="btn btn-outline btn-primary font-semibold"><i class="fa-solid fa-circle-question"></i>FAQ</a>
-     </li>
-     <li>
-      <a href="" class="btn btn-outline btn-primary font-semibold"><i class="fa-solid fa-book-open"></i>Learn</a>
-     </li>
-     <li>
-      <a href="" class="btn btn-outline btn-primary font-semibold"><i class="fa-solid fa-arrow-right-from-bracket"></i>Logout</a>
-     </li>
-      </ul>
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+            >
+              <li>
+                <a href="" class="btn btn-outline btn-primary font-semibold"
+                  ><i class="fa-solid fa-circle-question"></i>FAQ</a
+                >
+              </li>
+              <li>
+                <a href="" class="btn btn-outline btn-primary font-semibold"
+                  ><i class="fa-solid fa-book-open"></i>Learn</a
+                >
+              </li>
+              <li>
+                <a href="" class="btn btn-outline btn-primary font-semibold"
+                  ><i class="fa-solid fa-arrow-right-from-bracket"></i>Logout</a
+                >
+              </li>
+            </ul>
           </div>
           <div class="flex items-center">
             <h1 class="font-poppins font-semibold">English</h1>
@@ -78,20 +85,64 @@
             <h1 class="font-bangla font-semibold">জানালা</h1>
           </div>
         </div>
-         <div class="navbar-end hidden md:flex">
-    <ul class="menu menu-horizontal px-1 flex gap-4">
-     <li>
-      <a href="" class="btn btn-outline btn-primary font-semibold"><i class="fa-solid fa-circle-question"></i>FAQ</a>
-     </li>
-     <li>
-      <a href="" class="btn btn-outline btn-primary font-semibold"><i class="fa-solid fa-book-open"></i>Learn</a>
-     </li>
-     <li>
-      <a href="" class="btn btn-outline btn-primary font-semibold"><i class="fa-solid fa-arrow-right-from-bracket"></i>Logout</a>
-     </li>
-    </ul>
-  </div>
+        <div class="navbar-end hidden md:flex">
+          <ul class="menu menu-horizontal px-1 flex gap-4">
+            <li>
+              <a href="" class="btn btn-outline btn-primary font-semibold"
+                ><i class="fa-solid fa-circle-question"></i>FAQ</a
+              >
+            </li>
+            <li>
+              <a href="" class="btn btn-outline btn-primary font-semibold"
+                ><i class="fa-solid fa-book-open"></i>Learn</a
+              >
+            </li>
+            <li>
+              <a href="" class="btn btn-outline btn-primary font-semibold"
+                ><i class="fa-solid fa-arrow-right-from-bracket"></i>Logout</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
+
+      <section class="w-11/12 mx-auto flex justify-center items-center flex-col-reverse md:flex-row">
+        <div class="space-y-4 flex-1 text-center md:text-left">
+          <h1 class="font-poppins text-3xl font-bold">
+            <span class="text-sky-400">English</span> is Easy!!
+          </h1>
+          <p class="font-bangla ">
+            আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা
+            আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে যাবে <br>
+            অন্য একটি Level এ
+          </p>
+        </div>
+        <div class="flex-1">
+          <img src="./assets/hero-student.png" alt="" />
+        </div>
+      </section>
+
+      <!-- Main Section -->
+      <main class="w-11/12 mx-auto mt-20">
+        <section class="space-y-10">
+          <h1 class="font-poppins text-3xl font-bold text-center">
+            <span class="text-sky-400">Let's</span> Learn Vocabularies
+          </h1>
+
+          <div id="level-container" class="flex justify-center gap-5 flex-wrap"></div>
+        </section>
+        <!-- Card section -->
+         <section id="word-container" class="w-11/12 mx-auto bg-[#f8f8f8] grid md:grid-cols-3 my-15 rounded-lg">
+
+          <div class="col-span-full mx-auto p-10 space-y-5">
+            <p class=" text[#18181b] opacity-70">আপনি এখনো কোন Lesson Select করেননি</p>
+            <h1 class="text-3xl font-semibold">একটি Lesson Select করুন।</h1>
+          </div>
+
+         </section>
+      </main>
     </header>
+
+    <script src="./index.js"></script>
   </body>
 </html>
