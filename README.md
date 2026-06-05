@@ -110,5 +110,3 @@ function pronounceWord(word) {
 ```
 
 For More >> 👉 [https://codepen.io/Ferdous-Zihad/pen/PwoJMmJ](https://codepen.io/Ferdous-Zihad/pen/PwoJMmJ)
-
----
